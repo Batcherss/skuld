@@ -1,4 +1,4 @@
-package process
+package processkill
 
 import (
 	"os/exec"
